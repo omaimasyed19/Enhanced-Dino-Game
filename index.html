@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Dino Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <div id="game-container">
+        <div id="dino"></div>
+        <div id="rock"></div>
+        <div id="score">Score: <span id="scoreValue">0</span></div>
+        <div id="high-score">High Score: <span id="highScoreValue">0</span></div>
+        <div id="game-over" class="hidden">
+            <h2>Game Over</h2>
+            <p>Your score: <span id="finalScore"></span></p>
+            <button id="restart-btn" class="bounce">Restart😭</button>
+        </div>
+    </div>
+    <div id="controls">
+        <button id="theme-toggle" class="bounce">Theme-switch☀️🌛</button>
+        <button id="mute-toggle" class="bounce">Mute Sound🔇</button>
+    </div>
+    <div id="start-screen">
+        <button id="start-btn" class="fade-in">Start Game🦖</button>
+    </div>
+    <footer>Created by Umyma Syed</footer>
+    <script defer src="script.js"></script>
+</body>
+</html>
