@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const restartBtn = document.getElementById('restart-btn');
     const themeToggle = document.getElementById('theme-toggle');
     const muteToggle = document.getElementById('mute-toggle');
-
+    
     let isJumping = false;
     let scoreValue = 0;
     let highScoreValue = 0;
